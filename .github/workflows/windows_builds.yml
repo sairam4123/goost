@@ -10,7 +10,7 @@ on:
 
 env:
   GOOST_BASE_BRANCH: gd3
-  SCONSFLAGS: godot_modules_enabled=yes verbose=yes warnings=all werror=yes debug_symbols=no --jobs=4
+  SCONSFLAGS: godot_modules_enabled=yes verbose=no warnings=all werror=yes debug_symbols=no --jobs=4
   SCONS_CACHE_MSVC_CONFIG: true
   SCONS_CACHE_LIMIT: 8192
 
